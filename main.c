@@ -70,8 +70,6 @@ int main(int argc, char **argv)
   }
 
   const char *fileName = argv[1];
-  printf("%s \n", fileName);
-
   char *jsonFile = loadFile(fileName);
   if (!jsonFile) {
     return 0;
