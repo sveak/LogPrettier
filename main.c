@@ -64,11 +64,6 @@ static void dump(const nx_json *json, char *key) {
 
 int main(int argc, char **argv)
 {
-  printf("%d\n", argc);
-  for (int i=0; i < argc; i++) {
-    puts(argv[i]);
-  }
-
   if (argc < 2) {
     printf("Usage: log_parser filename.json");
     return 0;
